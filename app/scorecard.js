@@ -1,4 +1,8 @@
+module.exports = function () {
 
-module.exports = {
-    
+    this.users = [];
+
+    this.addUser = function (name) {
+        this.users.push({ name: name });
+    }
 }
