@@ -4,7 +4,7 @@
   "description": "tdd pairing excercise for keeping bowling scores",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --ui tdd -w app/test-helper.js app"
+    "test": "./node_modules/mocha/bin/mocha --ui bdd -w app/test-helper.js app"
   },
   "repository": {
     "type": "git",

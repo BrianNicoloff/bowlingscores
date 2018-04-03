@@ -1,14 +1,14 @@
 var scorecard = require('./scorecard'); 
 
-suite('scorecard', function () {
+describe('scorecard', function () {
     var testObject;
 
-    setup(function () {
+    beforeEach(function () {
         testObject = new scorecard();
     });    
 
-    test('should do something', function () {
-        assert.equal(testObject.foo, true);
+    it('should do something', function () {
+        expect(testObject.foo).to.equal(true);
     });
     
 });
